@@ -17,4 +17,6 @@
 
 ## [Level.1](/Programmers/Level.1/)
 
-1. 
+1. [약수의 합](/Programmers/Level.1/1_약수의_합.js)
+2. [x만큼 간격이 있는 n개의 숫자](/Programmers/Level.1/2_x만큼_간격있는_n개숫자.js)
+3. [나머지가 1이 되는 수 찾기](/Programmers/Level.1/3_나머지가_1이되는_수찾기.js)
