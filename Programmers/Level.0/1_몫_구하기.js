@@ -1,4 +1,4 @@
-// 1. num1을 num2로 나눈 몫을 return 하는 함수 완성
+// 1. num1을 num2로 나눈 몫을 return 하는 함수 완성해주세요.
 
 // 나의 풀이
 function solution (num1, num2) {

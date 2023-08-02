@@ -1,4 +1,4 @@
-// 4. num1를 num2로 나눈 나머지를 return 하는 함수를 완성
+// 4. num1를 num2로 나눈 나머지를 return 하는 함수를 완성해주세요.
 
 // 나의 풀이
 function solution(num1, num2) {

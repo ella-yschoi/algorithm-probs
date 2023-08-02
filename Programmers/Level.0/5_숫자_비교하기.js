@@ -1,4 +1,4 @@
-// 5. 정수 num1과 num2가 주어졌을 때, 두 수가 같으면 1 다르면 -1을 return 하는 함수 완성
+// 5. 정수 num1과 num2가 주어졌을 때, 두 수가 같으면 1 다르면 -1을 return 하는 함수 완성해주세요.
 
 // 나의 풀이
 function solution(num1, num2) {
