@@ -23,3 +23,7 @@
 4. [짝수와 홀수](/Programmers/Level.1/4_짝수와_홀수.js)
 5. [평균 구하기](/Programmers/Level.1/5_평균_구하기.js)
 6. [자릿수 더하기](/Programmers/Level.1/6_자릿수_더하기.js)
+7. [자연수 뒤집어 배열로 만들기](/Programmers/Level.1/7_자연수_뒤집어_배열로_만들기.js)
+8. [문자열을 정수로 바꾸기](/Programmers/Level.1/8_문자열을_정수로_바꾸기.js)
+9. [문자열 내 p와 y의 개수](/Programmers/Level.1/9_문자열_내_p와_y의_개수.js)
+10. [정수 제곱근 판별](/Programmers/Level.1/10_정수_제곱근_판별.js)
