@@ -1,11 +1,23 @@
 // 11. 함수 solution은 정수 n을 매개변수로 입력받습니다. n의 각 자릿수를 큰것부터 작은 순으로 정렬한 새로운 정수를 리턴해주세요. 
 
-// 나의 풀이: 문자풀이
+// 나의 풀이: 문자풀이1
 function solution(n) {
     return Number(n.toString().split("").sort((a, b) => b - a).join(""));
 }
 
-// 다른 풀이: 숫자풀이
+// 다른 풀이 1: 문자풀이2
+function solution(n) {
+    const newN = n + "";
+    const newArr = newN
+        .split("")
+        .sort()
+        .reverse()
+        .join("");
+
+    return +newArr;
+}
+
+// 다른 풀이 2: 숫자풀이
 function solution(n) {풀이
     let r = 0, e = 0, arr = [];
 
