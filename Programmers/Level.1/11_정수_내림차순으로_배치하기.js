@@ -36,20 +36,21 @@ function solution(n) {풀이
 }
 
 // TIL
-// (1) 내림차순 오름차순 sort()
+// (1) 오름차순 sort()
 let numbers = [4, 2, 5, 1, 3];
 numbers.sort(function(a, b) {
     return a - b;
     });
   console.log(numbers); // [1, 2, 3, 4, 5]
 
+// (2) 내림차순 sort()
 let numbers2 = [4, 2, 5, 1, 3];
 numbers2.sort(function(a, b) {
     return b - a;
     });
   console.log(numbers2); // [5, 4, 3, 2, 1]
 
-// (2) 배열의 모든 요소를 하나로 묶는 join()
+// (3) 배열의 모든 요소를 하나로 묶는 join()
 const elements = ['Fire', 'Air', 'Water'];
 
 console.log(elements.join()); // "Fire,Air,Water"
