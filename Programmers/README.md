@@ -35,3 +35,4 @@
 16. [나누어 떨어지는 숫자 배열](/Programmers/Level.1/16_나누어_떨어지는_숫자_배열.js)
 17. [음양 더하기](/Programmers/Level.1/17_음양_더하기.js)
 18. [핸드폰 번호 가리기](/Programmers/Level.1/18_핸드폰_번호_가리기.js)
+19. [숫자 문자열과 영단어](/Programmers/Level.1/19_숫자_문자열과_영단어.js)
