@@ -1,4 +1,4 @@
-// 20. 2018 KAKAO BLIND RECRUITMENT [1차] 비밀지도
+// 20. 2018 KAKAO BLIND RECRUITMENT : [1차] 비밀지도
 // 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/17681
 // 문제 해설: https://tech.kakao.com/2017/09/27/kakao-blind-recruitment-round-1/
 

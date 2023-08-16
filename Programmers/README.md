@@ -37,3 +37,5 @@
 18. [핸드폰 번호 가리기](/Programmers/Level.1/18_핸드폰_번호_가리기.js)
 19. [숫자 문자열과 영단어](/Programmers/Level.1/19_숫자_문자열과_영단어.js)
 20. [비밀지도](/Programmers/Level.1/20_비밀지도.js)
+21. [3진법 뒤집기](/Programmers/Level.1/21_3진법_뒤집기.js)
+22. [실패율](/Programmers/Level.1/22_실패율.js)
