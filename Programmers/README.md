@@ -39,3 +39,4 @@
 20. [비밀지도](/Programmers/Level.1/20_비밀지도.js)
 21. [3진법 뒤집기](/Programmers/Level.1/21_3진법_뒤집기.js)
 22. [실패율](/Programmers/Level.1/22_실패율.js)
+23. [같은 숫자는 싫어](/Programmers/Level.1/23_같은_숫자는_싫어.js)
