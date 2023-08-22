@@ -40,3 +40,4 @@
 21. [3진법 뒤집기](/Programmers/Level.1/21_3진법_뒤집기.js)
 22. [실패율](/Programmers/Level.1/22_실패율.js)
 23. [같은 숫자는 싫어](/Programmers/Level.1/23_같은_숫자는_싫어.js)
+24. [최소 직사각형](/Programmers/Level.1/24_최소_직사각형.js)
