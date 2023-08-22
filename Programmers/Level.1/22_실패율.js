@@ -1,4 +1,4 @@
-// 21. 2019 KAKAO BLIND RECRUITMENT: 실패율
+// 22. 2019 KAKAO BLIND RECRUITMENT: 실패율
 // 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42889
 
 // 나의 풀이
