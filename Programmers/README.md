@@ -41,3 +41,4 @@
 22. [실패율](/Programmers/Level.1/22_실패율.js)
 23. [같은 숫자는 싫어](/Programmers/Level.1/23_같은_숫자는_싫어.js)
 24. [최소 직사각형](/Programmers/Level.1/24_최소_직사각형.js)
+25. [폰켓몬](/Programmers/Level.1/25_폰켓몬.js)
