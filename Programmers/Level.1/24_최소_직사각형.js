@@ -48,8 +48,7 @@ function solution(sizes) {
 }
 
 // TIL
-// forEach()
-    // (1) 정의: 주어진 함수를 배열 요소 각각에 대해 실행한다.
+// forEach(): 주어진 함수를 배열 요소 각각에 대해 실행한다.
     const array1 = ["a", "b", "c"];
     array1.forEach((element) => console.log(element));
 
@@ -57,7 +56,7 @@ function solution(sizes) {
     // "b"
     // "c"
 
-    // (2) 용례: for 반복문을 forEach()로 바꾸기
+// (2) 용례: for 반복문을 forEach()로 바꾸기
     const items = ["item1", "item2", "item3"];
     const copy = [];
 
