@@ -42,3 +42,10 @@
 23. [같은 숫자는 싫어](/Programmers/Level.1/23_같은_숫자는_싫어.js)
 24. [최소 직사각형](/Programmers/Level.1/24_최소_직사각형.js)
 25. [폰켓몬](/Programmers/Level.1/25_폰켓몬.js)
+
+<br/>
+
+## [Level.2](/Programmers/Level.2/)
+
+1. [최댓값과 최솟값](/Programmers/Level.2/01_최댓값과_최솟값.js)
+2. [JadenCase 문자열 만들기](/Programmers/Level.2/02_JadenCase_문자열_만들기.js)
