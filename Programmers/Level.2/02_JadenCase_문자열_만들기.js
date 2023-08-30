@@ -15,7 +15,6 @@ function solution(s) {
   let answer = '';
 
   for (let i = 0; i < s.length; i++) {
-    // 문자열을 반복하면서 각 문자를 처리하는 루프 시작
     if (i === 0 || s[i-1] === " ") {
       // 현재 문자가 첫 번째 문자이거나 이전 문자가 공백인 경우
       answer += s[i].toUpperCase(); // 현재 문자를 대문자로 변환하여 answer에 추가
@@ -29,11 +28,10 @@ function solution(s) {
 
 // 다른 풀이 2: for loop 사용 & substring 기준
 function solution(s) {
-  let answer = s.split(" ");
   // 공백을 기준으로 문자열을 분리하여 배열 생성하여 변수 answer에 저장
+  let answer = s.split(" ");
 
-  for (let i = 0; i<answer.length; i++){
-    // answer 배열의 각 요소에 대해 반복하는 루프 시작
+  for (let i = 0; i < answer.length; i++){
       answer[i] = answer[i].substring(0, 1).toUpperCase() + answer[i].substring(1).toLowerCase();
       // 각 요소의 첫 글자를 대문자로 변환하고 나머지 글자를 소문자로 변환하여 요소에 저장
   }
