@@ -51,3 +51,4 @@
 2. [JadenCase 문자열 만들기](/Programmers/Level.2/02_JadenCase_문자열_만들기.js)
 3. [최솟값 만들기](/Programmers/Level.2/03_최솟값_만들기.js)
 4. [올바른 괄호](/Programmers/Level.2/04_올바른_괄호.js)
+5. [이진 변환 반복하기](/Programmers/Level.2/05_이진_변환_반복하기.js)
