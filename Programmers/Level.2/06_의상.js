@@ -29,4 +29,29 @@ function solution(clothes) {
     return answer - 1;
 }
 
-// TIL
+// 다른 풀이
+function solution(clothes) {
+    // 결과 초기값 1로 설정 (모두 다 입지 않는 경우 포함)
+    let answer = 1;
+    
+    // 각 옷의 종류별로 개수를 저장할 객체 생성
+    const obj = {};
+    
+    // clothes 배열 순회
+    for (let arr of clothes) {
+        // arr[1]은 옷의 종류
+        // obj 객체에 해당 종류의 옷 개수를 저장
+        // 만약 이미 해당 종류가 obj 객체에 존재한다면 그 값을 가져와 1을 증가
+        // 만약 해당 종류가 obj 객체에 존재하지 않는다면 0으로 초기화하고 1을 더함
+        obj[arr[1]] = (obj[arr[1]] || 0) + 1;
+    }
+
+    // 각 종류별로 옷을 입는 경우와 입지 않는 경우를 고려한 조합 계산
+    for (let key in obj) {
+        // 해당 종류의 옷을 입지 않는 경우도 고려하여 (obj[key] + 1)을 곱함
+        answer *= (obj[key] + 1);
+    }
+
+    // 모두 다 입지 않는 경우를 제외하기 위해 1을 뺌
+    return answer - 1;
+}
