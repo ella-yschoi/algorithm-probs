@@ -8,24 +8,24 @@ function solution(s) {
   
   // 문자열이 '1'이 될 때까지 반복
   while (s !== "1") {
-      // 현재 문자열에서 제거된 0의 개수를 세는 변수
-      let zeroCount = 0; 
-      for (let i = 0; i < s.length; i++) {
-          if (s[i] === "0") {
-              zeroCount++;
-          }
+    // 현재 문자열에서 제거된 0의 개수를 세는 변수
+    let zeroCount = 0; 
+    for (let i = 0; i < s.length; i++) {
+      if (s[i] === "0") {
+        zeroCount++;
       }
-      // 모든 0 제거
-      s = s.split("0").join("");
-      
-      // 제거된 0의 개수를 더함
-      answer[1] += zeroCount;
-      
-      // 문자열 길이를 2진법으로 변환하여 업데이트
-      s = s.length.toString(2);
-      
-      // 이진 변환 횟수 증가
-      answer[0]++;
+    }
+    // 모든 0 제거
+    s = s.split("0").join("");
+    
+    // 제거된 0의 개수를 더함
+    answer[1] += zeroCount;
+    
+    // 문자열 길이를 2진법으로 변환하여 업데이트
+    s = s.length.toString(2);
+    
+    // 이진 변환 횟수 증가
+    answer[0]++;
   }
   
   return answer;
