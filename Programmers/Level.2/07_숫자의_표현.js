@@ -3,6 +3,31 @@
 
 // 나의 풀이
 function solution(n) {
+  let answer = 0;
+  
+  for (let i = 1; i <= n; i++) {
+    let sum = 0;
+    // i부터 시작하여 연속된 자연수들의 합을 구함
+    for (let j = i; j <= n; j++) {
+      sum += j;
+      // 합이 n과 같아지면 answer를 1 증가시킴
+      if (sum === n) {
+        answer++;
+        // 이미 합이 n과 같으므로 다음 i로 넘어감
+        break;
+      }
+      // 합이 n보다 크면 더 이상 가능한 경우가 없으므로 반복 중단
+      else if (sum > n) {
+        break;
+      }
+    }
+  }
+
+  return answer;
+}
+
+// 다른 풀이 1
+function solution(n) {
   // 결과를 저장할 변수
   let answer = 0;
   // 연속된 자연수의 시작값을 나타내는 변수
@@ -27,31 +52,6 @@ function solution(n) {
     if (sum === n) {
       // 결과를 1 증가
       answer++;
-    }
-  }
-
-  return answer;
-}
-
-// 다른 풀이 1
-function solution(n) {
-  let answer = 0;
-  
-  for (let i = 1; i <= n; i++) {
-    let sum = 0;
-    // i부터 시작하여 연속된 자연수들의 합을 구함
-    for (let j = i; j <= n; j++) {
-      sum += j;
-      // 합이 n과 같아지면 answer를 1 증가시킴
-      if (sum === n) {
-        answer++;
-        // 이미 합이 n과 같으므로 다음 i로 넘어감
-        break;
-      }
-      // 합이 n보다 크면 더 이상 가능한 경우가 없으므로 반복 중단
-      else if (sum > n) {
-        break;
-      }
     }
   }
 
