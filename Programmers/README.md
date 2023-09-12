@@ -54,3 +54,4 @@
 5. [이진 변환 반복하기](/Programmers/Level.2/05_이진_변환_반복하기.js)
 6. [의상](/Programmers/Level.2/06_의상.js)
 7. [숫자의 표현](/Programmers/Level.2/07_숫자의_표현.js)
+8. [다음 큰 숫자](/Programmers/Level.2/08_다음_큰_숫자.js)
