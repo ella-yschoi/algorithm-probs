@@ -10,11 +10,48 @@ function solution(s) {
   return `${min} ${max}`; // 최솟값과 최댓값 문자열로 반환
 }
 
+// 다시 풀기
+function solution(s) {
+  // 공백으로 구분된 문자열을 숫자 배열로 변환
+  const numArray = s.split(' ').map(num => parseInt(num));
+
+  // 최솟값과 최댓값 구하기
+  const minValue = Math.min(...numArray);
+  const maxValue = Math.max(...numArray);
+
+  // 최솟값과 최댓값을 문자열로 반환
+  return `${minValue} ${maxValue}`;
+}
+
 // 다른 풀이 1
 function solution(s) {
   const arr = s.split(' ');
 
   return Math.min(...arr) + ' '+ Math.max(...arr);
+}
+
+// 다른 풀이 2
+function solution(s) {
+  const numbers = s.split(' ').map(Number); // 문자열을 공백으로 분리하고 숫자로 변환하여 배열 생성
+
+  // apply를 사용하여 배열 내 최솟값과 최댓값 계산
+  const min = Math.min.apply(null, numbers);
+  const max = Math.max.apply(null, numbers);
+
+  return `${min} ${max}`; // 최솟값과 최댓값 문자열로 반환
+}
+
+// 다른 풀이 3
+function solution(s) {
+  const numbers = s.split(' ').map(Number); // 문자열을 공백으로 분리하고 숫자로 변환하여 배열 생성
+
+  // reduce를 사용하여 배열 내 최솟값 계산
+  const min = numbers.reduce((min, current) => Math.min(min, current), numbers[0]);
+
+  // reduce를 사용하여 배열 내 최댓값 계산
+  const max = numbers.reduce((max, current) => Math.max(max, current), numbers[0]);
+
+  return `${min} ${max}`; // 최솟값과 최댓값 문자열로 반환
 }
 
 // TIL
