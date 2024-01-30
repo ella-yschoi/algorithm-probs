@@ -59,3 +59,4 @@
 9. [피보나치 수](/Programmers/Level.2/09_피보나치_수.js)
 10. [짝지어 제거하기](/Programmers/Level.2/10_짝지어_제거하기.js)
 11. [[완전탐색] 소수 찾기](/Programmers/Level.2/11_소수_찾기.js)
+12. [[완전탐색] 카펫](/Programmers/Level.2/12_카펫.js)
