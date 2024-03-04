@@ -43,6 +43,7 @@
 24. [[완전탐색] 최소 직사각형](/Programmers/Level.1/24_최소_직사각형.js)
 25. [[해시] 폰켓몬](/Programmers/Level.1/25_폰켓몬.js)
 26. [[완전탐색] 모의고사](/Programmers/Level.1/26_모의고사.js)
+27. [[그리디] 체육복](/Programmers/Level.1/27_체육복.js)
 
 <br/>
 
