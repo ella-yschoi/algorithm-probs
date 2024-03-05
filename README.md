@@ -44,6 +44,7 @@
 25. [[해시] 폰켓몬](/Programmers/Level.1/25_폰켓몬.js)
 26. [[완전탐색] 모의고사](/Programmers/Level.1/26_모의고사.js)
 27. [[그리디] 체육복](/Programmers/Level.1/27_체육복.js)
+28. [[정렬] K번째수](/Programmers/Level.1/28_K번째수.js)
 
 <br/>
 
