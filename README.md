@@ -62,3 +62,4 @@
 10. [짝지어 제거하기](/Programmers/Level.2/10_짝지어_제거하기.js)
 11. [[완전탐색] 소수 찾기](/Programmers/Level.2/11_소수_찾기.js)
 12. [[완전탐색] 카펫](/Programmers/Level.2/12_카펫.js)
+13. [[우선탐색] 타겟 넘버](/Programmers/Level.2/13_타겟_넘버.js)
