@@ -45,6 +45,7 @@
 26. [[완전탐색] 모의고사](/Programmers/Level.1/26_모의고사.js)
 27. [[그리디] 체육복](/Programmers/Level.1/27_체육복.js)
 28. [[정렬] K번째수](/Programmers/Level.1/28_K번째수.js)
+29. [[해시] 완주하지 못한 선수](/Programmers/Level.1/29_완주하지_못한_선수.js)
 
 <br/>
 
@@ -63,3 +64,4 @@
 11. [[완전탐색] 소수 찾기](/Programmers/Level.2/11_소수_찾기.js)
 12. [[완전탐색] 카펫](/Programmers/Level.2/12_카펫.js)
 13. [[우선탐색] 타겟 넘버](/Programmers/Level.2/13_타겟_넘버.js)
+14. [[해시] 전화번호 목록](/Programmers/Level.2/14_전화번호_목록.js)
