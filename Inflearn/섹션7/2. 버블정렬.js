@@ -1,10 +1,12 @@
 function solution(arr) {
   let answer = arr;
+  // 가장 큰 원소가 맨 끝에 이동하면서 위치가 자동적으로 결정되므로 별도로 확인할 필요 없으므로 length-1
   for (let i = 0; i < arr.length - 1; i++) {
     // 가장 끝자리는 자리 정했으니 길이보다 -2까지 순회
     for (let j = 0; j < arr.length - i - 1; j++) {
-      if (arr[j] > arr[j + 1]){
-        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+      // 오름차순이니 앞보다 뒤가 작아야 함
+      if (arr[j] > arr[j + 1]) {
+        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]; // 교환
       }
     }   
   }
@@ -13,6 +15,7 @@ function solution(arr) {
 
 let arr=[13, 5, 11, 7, 23, 15];
 console.log(solution(arr));
+
 
 // TIL
   // 버블정렬 (오름차순)
