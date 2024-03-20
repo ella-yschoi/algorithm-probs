@@ -1,10 +1,41 @@
-# Programmers Probs
+# 📜 Algorithm
 
-> Algorithm Pratice based on JavaScript
+> Steady Study. 알고리즘은 꾸준히 걸어가는 겁니당.
 
 <br/>
 
-## [Level.0](/Programmers/Level.0/)
+## Inflearn Probs
+
+### [Section 1 : 알고리즘 기초](/Inflearn/섹션1/)
+
+1. [세 수 중 최솟값](/Inflearn/섹션1/1.%20세%20수%20중%20최솟값.js)
+2. [삼각형 판별하기](/Inflearn/섹션1/2.%20삼각형%20판별하기.js)
+3. [연필 개수](/Inflearn/섹션1/3.%20연필개수.js)
+4. [1부터 N까지의 합](/Inflearn/섹션1/4.%201부터%20N까지의%20합.js)
+
+### [Section 4 : 완전탐색](/Inflearn/섹션4/)
+
+1. [졸업 선물](/Inflearn/섹션4/4.%20졸업선물.js)
+2. [K번째 큰 수](/Inflearn/섹션4/5.%20K번째%20큰%20수.js)
+
+### [Section 5 : 해시맵](/Inflearn/섹션5/)
+
+1. [두 배열 합치기](/Inflearn/섹션5/1.%20두%20배열%20합치기.js)
+2. [학급 회장](/Inflearn/섹션5/6.%20학급%20회장(해쉬).js)
+3. [아나그램](/Inflearn/섹션5/7.%20아나그램.js)
+
+### [Section 7 : 정렬](/Inflearn/섹션7/)
+
+1. [선택 정렬](/Inflearn/섹션7/1.%20선택정렬.js)
+2. [버블 정렬](/Inflearn/섹션7/2.%20버블정렬.js)
+3. [Special Sort](/Inflearn/섹션7/3.%20Special%20Sort.js)
+4. [삽입 정렬](/Inflearn/섹션7/4.%20삽입정렬.js)
+
+<br/>
+
+## Programmers Probs
+
+### [Level.0](/Programmers/Level.0/)
 
 1. [몫 구하기](/Programmers/Level.0/01_몫_구하기.js)
 2. [두 수의 곱](/Programmers/Level.0/02_두_수의_곱.js)
@@ -13,9 +44,7 @@
 5. [숫자 비교하기](/Programmers/Level.0/05_숫자_비교하기.js)
 6. [나이 구하기](/Programmers/Level.0/06_나이_구하기.js)
 
-<br/>
-
-## [Level.1](/Programmers/Level.1/)
+### [Level.1](/Programmers/Level.1/)
 
 1. [약수의 합](/Programmers/Level.1/01_약수의_합.js)
 2. [x만큼 간격이 있는 n개의 숫자](/Programmers/Level.1/02_x만큼_간격있는_n개숫자.js)
@@ -47,9 +76,7 @@
 28. [[정렬] K번째수](/Programmers/Level.1/28_K번째수.js)
 29. [[해시] 완주하지 못한 선수](/Programmers/Level.1/29_완주하지_못한_선수.js)
 
-<br/>
-
-## [Level.2](/Programmers/Level.2/)
+### [Level.2](/Programmers/Level.2/)
 
 1. [최댓값과 최솟값](/Programmers/Level.2/01_최댓값과_최솟값.js)
 2. [JadenCase 문자열 만들기](/Programmers/Level.2/02_JadenCase_문자열_만들기.js)
@@ -65,3 +92,5 @@
 12. [[완전탐색] 카펫](/Programmers/Level.2/12_카펫.js)
 13. [[우선탐색] 타겟 넘버](/Programmers/Level.2/13_타겟_넘버.js)
 14. [[해시] 전화번호 목록](/Programmers/Level.2/14_전화번호_목록.js)
+15. [[정렬] 가장 큰 수](/Programmers/Level.2/15_가장_큰_수.js)
+16. [[정렬] H-Index](/Programmers/Level.2/16_H-Index.js)
