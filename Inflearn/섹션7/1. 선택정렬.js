@@ -1,14 +1,43 @@
-function solution(arr){
-  let answer=arr;
-  for(let i=0; i<arr.length; i++){
-    let idx=i;
-    for(let j=i+1; j<arr.length; j++){
-      if(arr[j]<arr[idx]) idx=j;
-    }
-    [arr[i], arr[idx]] = [arr[idx], arr[i]];
-  } 
+// sort() 사용한 풀이
+function solution(arr1) {
+  let answer = arr1;
+  // arr1: n개의 숫자를 오름차순으로 선택정렬
+  answer = arr1.sort((a, b) => (a - b));
   return answer;
 }
 
-let arr=[13, 5, 11, 7, 23, 15];
-console.log(solution(arr));
+let arr1=[13, 5, 11, 7, 23, 15];
+console.log(solution(arr1)); // 5 7 11 13 15 24
+
+// sort() 사용하지 않은 풀이
+function solution(arr2) {
+  let answer = arr2;
+  // arr2: n개의 숫자를 오름차순으로 선택정렬
+  for (let i = 0; i < arr2.length; i++) {
+    let idx = i; // 제일 작은 숫자를 idx에 저장하도록 처음엔 i로 초기화
+    for (let j = i+1; j < arr2.length; j++) { // i 다음부터 순회
+      if (arr2[j] < arr2[idx]) idx = j; // j가 더 작으니 idx를 초기화했던 i에서 j로 바꿈 ... 반복 '너 나와!'
+    }
+    [arr2[i], arr2[idx]] = [arr2[idx], arr2[i]]; // 둘이 교환해주고 자리에 앉힘
+  }
+  
+  return answer;
+}
+
+let arr2=[13, 5, 11, 7, 23, 15];
+console.log(solution(arr2)); // 5 7 11 13 15 24
+
+// TIL
+// 선택 정렬(Selection Sort) 알고리즘에서 두 번의 for 루프를 사용하는 이유
+  // 배열의 각 위치에 올바른 값을 찾아 배치하는 과정을 반복하기 위함이다.
+  // 1. 첫 번째 for 루프: 가장 첫 번째 비교 대상을 찾아 넣음
+  // 이 루프는 배열의 각 인덱스를 순회하며, 해당 인덱스에 올바른 값을 배치할 위치를 결정한다. 즉, i번째 인덱스에 오게 될 가장 작은 원소를 찾는 역할을 한다.
+
+  // 2. 두 번째 for 루프: i와의 비교용 요소를 찾음
+  // 이 루프는 i번째 인덱스 이후의 배열 부분을 순회한다. 이때, i번째 인덱스에 배치될 가장 작은 원소를 찾기 위해, 현재 가장 작다고 생각되는 값(arr[idx])과 비교하여 더 작은 원소를 찾는다.
+
+  // 위의 풀이에 따르면, 첫 번째 i 루프에서 i번째 위치에 올 원소를 결정하며, 두 번째 j 루프를 통해 i번째 이후의 원소 중 가장 작은 원소를 찾는다.
+  // 그리고 가장 작은 원소를 i번째 위치와 교환하며, 이 과정을 배열의 모든 원소에 대해 반복하여 전체 배열을 오름차순으로 정렬한다.
+
+  // 각 i번째 반복에서, i번째 위치에 올 원소가 결정되므로, 전체 배열을 정렬하는 데 필요한 비교 횟수는 감소한다.
+  // 따라서, 선택 정렬은 각 단계에서 하나의 위치를 확정 지음으로써 전체 배열을 점차 정렬하는 방식을 취한다.
