@@ -31,6 +31,13 @@
 3. [Special Sort](/Inflearn/섹션7/3.%20Special%20Sort.js)
 4. [삽입 정렬](/Inflearn/섹션7/4.%20삽입정렬.js)
 
+### [Section 8 : 재귀, DFS](/Inflearn/섹션8/)
+
+1. [재귀함수](/Inflearn/섹션8/1.%20재귀함수.js)
+2. [이진수 출력](/Inflearn/섹션8/2.%20이진수%20출력(재귀).js)
+3. [이진트리 순회](/Inflearn/섹션8/3.%20이진트리순회.js)
+4. [합이 같은 부분집합](/Inflearn/섹션8/5.%20합이%20같은%20부분집합.js)
+
 <br/>
 
 ## Programmers Probs
