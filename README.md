@@ -82,6 +82,7 @@
 27. [[그리디] 체육복](/Programmers/Level.1/27_체육복.js)
 28. [[정렬] K번째수](/Programmers/Level.1/28_K번째수.js)
 29. [[해시] 완주하지 못한 선수](/Programmers/Level.1/29_완주하지_못한_선수.js)
+30. [옹알이 (2)](/Programmers/Level.1/30_옹알이(2).js)
 
 ### [Level.2](/Programmers/Level.2/)
 
