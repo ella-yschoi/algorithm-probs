@@ -95,6 +95,46 @@ function solution(n, lost, reserve) {
   return n - actualLost.length;
 }
 
+// 다른 풀이 3
+function solution(n, lost, reserve) {
+  const students = {};
+  let answer = 0;
+
+  // 모든 학생들의 체육복 상태를 1로 초기화 (체육복이 있는 상태)
+  for (let i = 1; i <= n; i++){
+    students[i] = 1;
+  }
+
+  // 도난당한 학생들의 체육복 상태를 0으로 변경 (체육복이 없는 상태)
+  lost.forEach(number => students[number] -= 1);
+  
+  // 여벌 체육복을 가져온 학생들의 체육복 상태를 2로 변경 (여벌 체육복이 있는 상태)
+  reserve.forEach(number => students[number] += 1);
+
+  // 체육복 빌려주는 과정
+  for (let i = 1; i <= n; i++){
+    // 현재 학생이 여벌 체육복이 있고, 앞번호 학생이 체육복이 없는 경우
+    if (students[i] === 2 && students[i-1] === 0){
+      students[i-1]++;
+      students[i]--;
+    
+    // 현재 학생이 여벌 체육복이 있고, 뒷번호 학생이 체육복이 없는 경우
+    } else if(students[i] === 2 && students[i+1] === 0){
+      students[i+1]++;
+      students[i]--;
+    }
+  }
+
+  // 체육복을 가진 학생 수를 세는 과정
+  for (let key in students){
+    if (students[key] >= 1){
+      answer++;
+    }
+  }
+
+  return answer;
+}
+
 
 // TIL
 // 1. forEach()
