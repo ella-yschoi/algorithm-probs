@@ -33,6 +33,49 @@ function solution(numbers) {
   return Array.from(numSet).filter(isPrime).length; // Set에서 소수를 필터링하여 그 개수 반환
 }
 
+
+// 조금 다른 풀이
+function solution(numbers) {
+  // numbers: 숫자들이 적힌 문자열 e.g. "17"
+  // 문자열의 각 자리 숫자들을 조합하여 가능한 모든 수를 생성하기
+  // 종이 조각으로 만들 수 있는 소수 개수 return
+  // 배열을 순회하면서 소수인지 파악 -> Math.sqrt()
+  
+  const numSet = new Set(); // 중복 없이
+  
+  const makeCombinations = (current, remaining) => {
+    if (current.length > 0) {
+      numSet.add(parseInt(current));
+    }
+    for (let i = 0; i < remaining.length; i++) {
+      // current에 remaining[i]를 추가하고, remaining의 i번째 문자를 제외한 부분을 전달하여 재귀 호출
+      makeCombinations(current + remaining[i], remaining.slice(0, i) + remaining.slice(i + 1));
+    }
+  }
+  
+  // 소수 판별 함수
+  const isPrime = (num) => {
+    if (num < 2) return false;
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    return true;
+  }
+  
+  // 숫자 조합 생성 시작
+  makeCombinations('', numbers);
+  
+  // 생성된 숫자 중 소수인 개수 세기
+  let count = 0;
+  numSet.forEach(num => {
+    if (isPrime(num)) {
+      count++;
+    }
+  });
+  
+  return count;
+}
+
 // TIL 1. 소수 판별
   // i * i <= num 조건은 소수를 판별하는 과정에서 성능 최적화를 위해 사용된다.
   // 이는 주어진 숫자 num이 소수인지 판별할 때, num의 제곱근까지만 확인하면 충분하다는 수학적 성질을 이용한 것
