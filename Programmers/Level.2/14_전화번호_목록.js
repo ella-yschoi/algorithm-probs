@@ -7,6 +7,7 @@ function solution(phone_book) {
   phone_book.sort();
   
   // indexOf() 사용해 인접한 번호끼리 접두어인지 확인
+  // 이때, 그냥 length로 하면 인덱스 범위 넘어가므로 length - 1 로 해주어야 함
   for (let i = 0; i < phone_book.length - 1; i++) {
     if (phone_book[i + 1].indexOf(phone_book[i]) === 0) {
       return false; // 접두어 있음
@@ -23,6 +24,7 @@ function solution(phone_book) {
 
   // startsWith() 사용해 인접한 번호끼리 접두어인지 확인
   for (let i = 0; i < phone_book.length - 1; i++) {
+    // 배열이 정렬되어 있다는 가정하에 배열 내에서 인접한 두 번호만 비교하기 때문에 i + 1이 먼저 옴
     if (phone_book[i + 1].startsWith(phone_book[i])) {
       return false; // 접두어 있음
     }
