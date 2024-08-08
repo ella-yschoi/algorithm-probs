@@ -19,3 +19,13 @@ function solution(numbers) {
   // 단, 만약 가장 큰 수로 나온게 0이라면 전체 수는 0이라는 예외 처리
   return answer[0] === '0' ? '0' : answer;
 }
+
+// 가독성 보완
+function solution(numbers) {
+  let strNumbers = numbers.map(String);
+  strNumbers.sort((a, b) => (b + a) - (a + b));
+  
+  let result = strNumbers.join('');
+  
+  return result[0] === '0' ? '0' : result;
+}
