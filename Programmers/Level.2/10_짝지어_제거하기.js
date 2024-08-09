@@ -22,6 +22,7 @@ function solution(s) {
     return result.length === 0 ? 1 : 0; 
 }
 
+
 // 다른 풀이 1: 통과되기는 하나 효율이 매우 떨어짐
 function solution(s) {
     const arr = s.split('');
@@ -34,9 +35,26 @@ function solution(s) {
         }
     }
 
-  return arr.length === 0 ? 1 : 0; // 모두 제거되었으면 1, 남아있으면 0 반환
+    return arr.length === 0 ? 1 : 0; // 모두 제거되었으면 1, 남아있으면 0 반환
 }
 
+
+// 다른 풀이 2
+function solution(s) {
+    const stack = [];
+
+    for (const char of s) {
+        // 스택의 마지막 문자와 현재 문자가 같으면 제거, 아니면 스택에 추가
+        if (stack[stack.length - 1] === char) {
+            stack.pop();
+        } else {
+            stack.push(char);
+        }
+    }
+
+    // 스택이 비어 있으면 성공적으로 모두 제거된 경우
+    return stack.length === 0 ? 1 : 0;
+}
 
 /* TIL: 다른 풀이 1의 효율이 떨어지는 이유
 splice 함수로 요소를 제거하는 경우,
