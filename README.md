@@ -102,3 +102,4 @@
 14. [[해시] 전화번호 목록](/Programmers/Level.2/14_전화번호_목록.js)
 15. [[정렬] 가장 큰 수](/Programmers/Level.2/15_가장_큰_수.js)
 16. [[정렬] H-Index](/Programmers/Level.2/16_H-Index.js)
+17. [[힙] 더 맵게](/Programmers/Level.2/17_더_맵게.js)
