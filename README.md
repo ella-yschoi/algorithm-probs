@@ -1,6 +1,16 @@
 # 📜 Algorithm
 
-> Steady Study. 알고리즘은 꾸준히 걸어가는 겁니당.
+> Steady Study. 알고리즘은 꾸준히.
+
+<br/>
+
+## LeetCode
+
+### [Easy](/LeetCode/Easy/)
+
+1. [1768. Merge Strings Alternately](/LeetCode/Easy/1768_Merge_Strings_Alternately.js)
+
+### [Medium](/LeetCode/Medium/)
 
 <br/>
 
