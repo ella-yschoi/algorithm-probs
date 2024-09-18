@@ -9,6 +9,7 @@
 ### [Easy](/LeetCode/Easy/)
 
 1. [1768. Merge Strings Alternately](/LeetCode/Easy/1768_Merge_Strings_Alternately.js)
+2. [1071. Greatest Common Divisor of Strings](/LeetCode/Easy/1071_Greatest_Common_Divisor_of_Strings.js)
 
 ### [Medium](/LeetCode/Medium/)
 
