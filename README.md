@@ -10,6 +10,7 @@
 
 1. [1768. Merge Strings Alternately](/LeetCode/Easy/1768_Merge_Strings_Alternately.js)
 2. [1071. Greatest Common Divisor of Strings](/LeetCode/Easy/1071_Greatest_Common_Divisor_of_Strings.js)
+3. [1431. Kids With the Greatest Number of Candies](/LeetCode/Easy/1431_Kids_With_the_Greatest_Number_of_Candies.js)
 
 ### [Medium](/LeetCode/Medium/)
 
