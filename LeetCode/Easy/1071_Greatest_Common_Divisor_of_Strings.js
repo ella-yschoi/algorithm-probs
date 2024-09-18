@@ -2,6 +2,7 @@
 // 문제 링크: https://leetcode.com/problems/greatest-common-divisor-of-strings/?envType=study-plan-v2&envId=leetcode-75
 
 // 나의 풀이
+// ⏳ Time Complexity: O(m + n), Space Complexity: O(m + n)
 const gcdOfStrings1 = function(str1, str2) {
   // 두 문자열을 붙였을 때 같은지 확인
   if ((str1 + str2) !== (str2 + str1)) {
@@ -19,6 +20,7 @@ const gcdOfStrings1 = function(str1, str2) {
 
 
 // 다른 풀이 1
+// ⏳ Time Complexity: O(m + n), Space Complexity: O(m + n)
 const gcdOfStrings2 = function(str1, str2) {
   // 최대 공약수 계산 함수
   const gcd = (a, b) => b === 0 ? a : gcd(b, a % b);
