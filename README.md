@@ -12,6 +12,7 @@
 2. [1071. Greatest Common Divisor of Strings](/LeetCode/Easy/1071_Greatest_Common_Divisor_of_Strings.js)
 3. [1431. Kids With the Greatest Number of Candies](/LeetCode/Easy/1431_Kids_With_the_Greatest_Number_of_Candies.js)
 4. [605. Can Place Flowers](/LeetCode/Easy/605_Can_Place_Flowers.js)
+5. [345. Reverse Vowels of a String](/LeetCode/Easy/345_Reverse_Vowels_of_a_String.js)
 
 ### [Medium](/LeetCode/Medium/)
 
