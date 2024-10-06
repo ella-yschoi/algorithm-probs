@@ -13,12 +13,14 @@
 3. [1431. Kids With the Greatest Number of Candies](/LeetCode/Easy/1431_Kids_With_the_Greatest_Number_of_Candies.js)
 4. [605. Can Place Flowers](/LeetCode/Easy/605_Can_Place_Flowers.js)
 5. [345. Reverse Vowels of a String](/LeetCode/Easy/345_Reverse_Vowels_of_a_String.js)
+6. [392. Is Subsequence](/LeetCode/Easy/392_Is_Subsequence.js)
 
 ### [Medium](/LeetCode/Medium/)
 
 - [151. Reverse Words in a String](/LeetCode/Medium/151_Reverse_Words_in_a_String.js)
 - [238. Product of Array Except Self](/LeetCode/Medium/238_Product_of_Array_Except%20Self.js)
 - [334. Increasing Triplet Subsequence](/LeetCode/Medium/334_Increasing_Triplet_Subsequence.js)
+- [11. Container With Most Water](/LeetCode/Medium/11_Container_With_Most_Water.js)
 
 <br/>
 
