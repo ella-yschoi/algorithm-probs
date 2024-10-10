@@ -21,6 +21,7 @@
 - [238. Product of Array Except Self](/LeetCode/Medium/238_Product_of_Array_Except%20Self.js)
 - [334. Increasing Triplet Subsequence](/LeetCode/Medium/334_Increasing_Triplet_Subsequence.js)
 - [11. Container With Most Water](/LeetCode/Medium/11_Container_With_Most_Water.js)
+- [1679. Max Number of K-Sum Pairs](/LeetCode/Medium/1679_Max_Number_of_K-Sum_Pairs.js)
 
 <br/>
 
