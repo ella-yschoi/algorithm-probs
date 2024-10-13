@@ -14,6 +14,7 @@
 4. [605. Can Place Flowers](/LeetCode/Easy/605_Can_Place_Flowers.js)
 5. [345. Reverse Vowels of a String](/LeetCode/Easy/345_Reverse_Vowels_of_a_String.js)
 6. [392. Is Subsequence](/LeetCode/Easy/392_Is_Subsequence.js)
+7. [283. Move Zeroes.js](/LeetCode/Easy/283_Move_Zeroes.js)
 
 ### [Medium](/LeetCode/Medium/)
 
