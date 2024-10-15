@@ -15,6 +15,7 @@
 5. [345. Reverse Vowels of a String](/LeetCode/Easy/345_Reverse_Vowels_of_a_String.js)
 6. [392. Is Subsequence](/LeetCode/Easy/392_Is_Subsequence.js)
 7. [283. Move Zeroes.js](/LeetCode/Easy/283_Move_Zeroes.js)
+8. [643. Maximum Average Subarray I](/LeetCode/Easy/643_Maximum_Average_Subarray_I.js)
 
 ### [Medium](/LeetCode/Medium/)
 
