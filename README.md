@@ -27,6 +27,7 @@
 - [1679. Max Number of K-Sum Pairs](/LeetCode/Medium/1679_Max_Number_of_K-Sum_Pairs.js)
 - [1004. Max Consecutive Ones III](/LeetCode/Medium/1004_Max_Consecutive_Ones_III.js)
 - [1657. Determine if Two Strings Are Close](/LeetCode/Medium/1657_Determine_if_Two_Strings_Are_Close.js)
+- [2352. Equal Row and Column Pairs](/LeetCode/Medium/2352_Equal_Row_and_Column_Pairs.js)
 
 <br/>
 
