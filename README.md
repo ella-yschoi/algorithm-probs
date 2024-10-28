@@ -29,6 +29,7 @@
 - [1657. Determine if Two Strings Are Close](/LeetCode/Medium/1657_Determine_if_Two_Strings_Are_Close.js)
 - [2352. Equal Row and Column Pairs](/LeetCode/Medium/2352_Equal_Row_and_Column_Pairs.js)
 - [2390. Removing Stars From a String](/LeetCode/Medium/2390_Removing_Stars_From_a_String.js)
+- [735. Asteroid Collision](/LeetCode/Medium/735_Asteroid_Collision.js)
 
 <br/>
 
