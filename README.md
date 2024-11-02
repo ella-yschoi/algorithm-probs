@@ -32,6 +32,7 @@
 - [2390. Removing Stars From a String](/LeetCode/Medium/2390_Removing_Stars_From_a_String.js)
 - [735. Asteroid Collision](/LeetCode/Medium/735_Asteroid_Collision.js)
 - [394. Decode String](/LeetCode/Medium/394_Decode_String.js)
+- [649. Dota2 Senate]()
 
 <br/>
 
