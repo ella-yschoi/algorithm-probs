@@ -17,6 +17,7 @@
 7. [283. Move Zeroes.js](/LeetCode/Easy/283_Move_Zeroes.js)
 8. [643. Maximum Average Subarray I](/LeetCode/Easy/643_Maximum_Average_Subarray_I.js)
 9. [1207. Unique Number of Occurrences](/LeetCode/Easy/1207_Unique_Number_of_Occurrences.js)
+10. [933. Number of Recent Calls](/LeetCode/Easy/933_Number_of_Recent_Calls.js)
 
 ### [Medium](/LeetCode/Medium/)
 
