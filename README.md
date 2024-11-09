@@ -34,6 +34,7 @@
 - [735. Asteroid Collision](/LeetCode/Medium/735_Asteroid_Collision.js)
 - [394. Decode String](/LeetCode/Medium/394_Decode_String.js)
 - [649. Dota2 Senate](/LeetCode/Medium/649_Dota2_Senate.js)
+- [2130. Maximum Twin Sum of a Linked List](/LeetCode/Medium/2130_Maximum_Twin_Sum%20of_a_Linked_List.js)
 
 <br/>
 
