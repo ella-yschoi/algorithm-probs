@@ -8,32 +8,73 @@
 
 ### [Easy](/LeetCode/Easy/)
 
+> Array / String
+
 - [1768. Merge Strings Alternately](/LeetCode/Easy/1768_Merge_Strings_Alternately.js)
 - [1071. Greatest Common Divisor of Strings](/LeetCode/Easy/1071_Greatest_Common_Divisor_of_Strings.js)
 - [1431. Kids With the Greatest Number of Candies](/LeetCode/Easy/1431_Kids_With_the_Greatest_Number_of_Candies.js)
 - [605. Can Place Flowers](/LeetCode/Easy/605_Can_Place_Flowers.js)
 - [345. Reverse Vowels of a String](/LeetCode/Easy/345_Reverse_Vowels_of_a_String.js)
-- [392. Is Subsequence](/LeetCode/Easy/392_Is_Subsequence.js)
+
+> Two Pointers
+
 - [283. Move Zeroes.js](/LeetCode/Easy/283_Move_Zeroes.js)
+- [392. Is Subsequence](/LeetCode/Easy/392_Is_Subsequence.js)
+
+> Sliding Window
+
 - [643. Maximum Average Subarray I](/LeetCode/Easy/643_Maximum_Average_Subarray_I.js)
+
+> Hash Map / Set
+
 - [1207. Unique Number of Occurrences](/LeetCode/Easy/1207_Unique_Number_of_Occurrences.js)
+
+> Queue
+
 - [933. Number of Recent Calls](/LeetCode/Easy/933_Number_of_Recent_Calls.js)
+
+> Linked List
+
 - [206. Reverse Linked List](/LeetCode/Easy/206_Reverse_Linked_List.js)
 
+> Binary Tree - DFS
+
+- [104. Maximum Depth of Binary Tree](/LeetCode/Easy/104_Maximum_Depth_of_Binary_Tree.js)
+
 ### [Medium](/LeetCode/Medium/)
+
+> Array / String
 
 - [151. Reverse Words in a String](/LeetCode/Medium/151_Reverse_Words_in_a_String.js)
 - [238. Product of Array Except Self](/LeetCode/Medium/238_Product_of_Array_Except%20Self.js)
 - [334. Increasing Triplet Subsequence](/LeetCode/Medium/334_Increasing_Triplet_Subsequence.js)
+
+> Two Pointers
+
 - [11. Container With Most Water](/LeetCode/Medium/11_Container_With_Most_Water.js)
 - [1679. Max Number of K-Sum Pairs](/LeetCode/Medium/1679_Max_Number_of_K-Sum_Pairs.js)
+
+> Sliding Window
+
 - [1004. Max Consecutive Ones III](/LeetCode/Medium/1004_Max_Consecutive_Ones_III.js)
+
+> Hash Map / Set
+
 - [1657. Determine if Two Strings Are Close](/LeetCode/Medium/1657_Determine_if_Two_Strings_Are_Close.js)
 - [2352. Equal Row and Column Pairs](/LeetCode/Medium/2352_Equal_Row_and_Column_Pairs.js)
+
+> Stack
+
 - [2390. Removing Stars From a String](/LeetCode/Medium/2390_Removing_Stars_From_a_String.js)
 - [735. Asteroid Collision](/LeetCode/Medium/735_Asteroid_Collision.js)
 - [394. Decode String](/LeetCode/Medium/394_Decode_String.js)
+
+> Queue
+
 - [649. Dota2 Senate](/LeetCode/Medium/649_Dota2_Senate.js)
+
+> Linked List
+
 - [2130. Maximum Twin Sum of a Linked List](/LeetCode/Medium/2130_Maximum_Twin_Sum%20of_a_Linked_List.js)
 
 <br/>
