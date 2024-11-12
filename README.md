@@ -40,6 +40,7 @@
 > Binary Tree - DFS
 
 - [104. Maximum Depth of Binary Tree](/LeetCode/Easy/104_Maximum_Depth_of_Binary_Tree.js)
+- [872. Leaf-Similar Trees](/LeetCode/Easy/872_Leaf_Similar_Trees.js)
 
 ### [Medium](/LeetCode/Medium/)
 
@@ -76,6 +77,10 @@
 > Linked List
 
 - [2130. Maximum Twin Sum of a Linked List](/LeetCode/Medium/2130_Maximum_Twin_Sum%20of_a_Linked_List.js)
+
+> DFS
+
+- [437. Path Sum III](/LeetCode/Medium/437_Path_Sum_III.js)
 
 <br/>
 
