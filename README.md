@@ -81,6 +81,7 @@
 > DFS
 
 - [437. Path Sum III](/LeetCode/Medium/437_Path_Sum_III.js)
+- [1372. Longest ZigZag Path in a Binary Tree](/LeetCode/Medium/1372_Longest_ZigZag_Path_in_a_Binary_Tree.js)
 
 <br/>
 
