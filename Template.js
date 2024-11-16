@@ -1,13 +1,11 @@
 // 00. 문제 이름
-// 문제 링크: 
+// 문제 링크
 
-// 나의 풀이
-
-
-// 다른 풀이 1
+// My Solution
 
 
-// 다른 풀이 2
+// Another Solution
 
 
 // Comment
+
