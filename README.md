@@ -88,6 +88,10 @@
 
 - [199. Binary Tree Right Side View](/LeetCode/Medium/199_Binary_Tree_Right_Side_View.js)
 
+> Binary Search Tree
+
+- [700. Search in a Binary Search Tree](/LeetCode/Easy/700_Search%20in_a_Binary_Search_Tree.js)
+
 <br/>
 
 ## Inflearn Probs
