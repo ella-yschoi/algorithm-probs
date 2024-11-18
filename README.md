@@ -91,6 +91,7 @@
 > Binary Search Tree
 
 - [700. Search in a Binary Search Tree](/LeetCode/Easy/700_Search%20in_a_Binary_Search_Tree.js)
+- [450. Delete Node in a BST](/LeetCode/Medium/450_Delete_Node_in_a_BST.js)
 
 <br/>
 
