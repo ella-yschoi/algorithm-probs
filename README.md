@@ -96,6 +96,7 @@
 > Graph - DFS
 
 - [841. Keys and Rooms](/LeetCode/Medium/841_Keys_and_Rooms.js)
+- [547. Number of Provinces](/LeetCode/Medium/547_Number_of_Provinces.js)
 
 <br/>
 
