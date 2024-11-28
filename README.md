@@ -100,6 +100,10 @@
 - [1466. Reorder Routes to Make All Paths Lead to the City Zero](/LeetCode/Medium/1466_Reorder_Routes_to_Make_All_Paths_Lead_to_the_City_Zero.js)
 - [399. Evaluate Division](/LeetCode/Medium/399_Evaluate_Division.js)
 
+> Graph - BFS
+
+- [1926. Nearest Exit from Entrance in Maze](/LeetCode/Medium/1926_Nearest_Exit_from_Entrance_in_Maze.js)
+
 <br/>
 
 ## Inflearn Probs
