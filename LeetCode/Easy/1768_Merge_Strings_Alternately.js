@@ -5,27 +5,20 @@
 // Time Complexity: O(N), Space Complexity: O(N)
 
 // string -> array로 변환
-// 각 array를 순회하여 단어 하나씩 꺼내기
-// 새로운 array에 하나씩 번갈아 가면서 넣기
-// if word2가 word1 보다 길면 -> word2의 나머지 부분을 맨 뒤에 붙임
-// 새 array를 다시 string으로 변환해 return
-
 var mergeAlternately = function(word1, word2) {
-  const arr1 = word1.split('');
-  const arr2 = word2.split('');
-  const maxLength = Math.max(arr1.length, arr2.length);
-  let result = [];
+  let output = [];
+
+  // 두 문자열 중 더 긴 길이를 기준으로 반복 횟수를 정하기
+  let maxLength = Math.max(word1.length, word2.length);
 
   for (let i = 0; i < maxLength; i++) {
-    if (i < arr1.length) {
-      result.push(arr1[i]);
-    }
-    if (i < arr2.length) {
-      result.push(arr2[i]);
-    }
+      // word1과 word2 번갈아가며 순회해서 맨 앞 문자 떼기
+      // 각각 i가 word1과 word2 범위 안에 있을 때만 추가
+      if (i < word1.length) output.push(word1[i]);
+      if (i < word2.length) output.push(word2[i]);
   }
 
-  return result.join(''); // 문자열로 반환
+  return output.join('');
 };
 
 
